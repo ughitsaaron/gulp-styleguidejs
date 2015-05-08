@@ -1,0 +1,27 @@
+{
+  "name": "gulp-styleguidejs",
+  "version": "0.0.1",
+  "description": "A gulp plugin for styleguide.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "gulpplugin",
+    "css",
+    "sass",
+    "less",
+    "documentation",
+    "styleguidejs"
+    "styleguides",
+    "gulp"
+  ],
+  "author": "Aaron Petcoff",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.4",
+    "styleguidejs": "^0.1.9",
+    "through2": "^0.6.5"
+  }
+}
