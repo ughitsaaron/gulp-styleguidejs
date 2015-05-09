@@ -28,6 +28,7 @@ describe('gulp-styleguide', function() {
       data.should.equal(emptyFile);
       done();
     });
+    
     stream.write(emptyFile);
   });
 
@@ -48,6 +49,7 @@ describe('gulp-styleguide', function() {
       err.message.should.equal('Streaming not supported');
       done();
     });
+    
     stream.write(streamFile);
   });
 
@@ -61,9 +63,7 @@ describe('gulp-styleguide', function() {
     });
 
     stream.on('end', done);
-
     stream.write(FIXTURE);
-
     stream.end();
   });
 });
