@@ -4,7 +4,7 @@
 
 _Issues with output should be reported on the styleguide.js [issue tracker](https://github.com/EightMedia/styleguide.js/issues)_
 
-A [gulp](https://github.com/gulpjs/gulp) wrapper for [styleguide.js](https://github.com/EightMedia/styleguide.js) by @EightMedia
+A [gulp](https://github.com/gulpjs/gulp) wrapper for [styleguide.js](https://github.com/EightMedia/styleguide.js) by [EightMedia](https://github.com/EightMedia/)
 
 ## Install
 ```bash
