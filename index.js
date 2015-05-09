@@ -6,6 +6,12 @@ var gutil = require('gulp-util'),
     through = require('through2'),
     PLUGIN_NAME = "gulp-styleguidejs";
 
+/**
+ * Exports function
+ * @param "String" filename
+ * @param {Object} options
+ */
+
 module.exports = function(filename, options) {
   options = options || {};
   filename = filename || "index.html";
@@ -14,11 +20,12 @@ module.exports = function(filename, options) {
 
     if(file.isNull()) {
       cb(null, file);
-      return;
+      return false;
     }
 
     if(file.isStream()) {
       cb(new PluginError(PLUGIN_NAME, "Streaming not supported"));
+      return false;
     }
 
     try {

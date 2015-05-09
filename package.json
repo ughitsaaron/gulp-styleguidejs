@@ -4,7 +4,7 @@
   "description": "A gulp plugin for styleguide.js",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node_modules/.bin/mocha test.js"
   },
   "keywords": [
     "gulpplugin",
@@ -12,7 +12,7 @@
     "sass",
     "less",
     "documentation",
-    "styleguidejs"
+    "styleguidejs",
     "styleguides",
     "gulp"
   ],
@@ -23,5 +23,9 @@
     "gulp-util": "^3.0.4",
     "styleguidejs": "^0.1.9",
     "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
   }
 }
