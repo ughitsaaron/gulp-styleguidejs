@@ -75,4 +75,4 @@ From the styleguide.js documentation:
 }
 ```
 
-Find out more about using styleguide.js from their [documentation](https://github.com/EightMedia/styleguide.js).
+Find out more about using styleguide.js by reading its [documentation](https://github.com/EightMedia/styleguide.js).
