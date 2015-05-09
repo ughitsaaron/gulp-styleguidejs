@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A gulp plugin for styleguide.js",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aptkf/gulp-styleguidejs/"
+  },
   "scripts": {
     "test": "node_modules/.bin/mocha test.js"
   },
@@ -16,7 +20,11 @@
     "styleguides",
     "gulp"
   ],
-  "author": "Aaron Petcoff",
+  "author": "Aaron Petcoff <hello@aaronpetcoff.me> (http://aaronpetcoff.me",
+  "bugs": {
+    "url": "https://github.com/aptkf/gulp-styleguidejs/issues",
+    "email": "hello@aaronpetcoff.me"
+  },
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.8.11",
