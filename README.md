@@ -25,7 +25,7 @@ gulp.task('default', function() {
 ```
 
 ## API
-## # styleguidejs([filename]\[, options])
+### styleguidejs([filename]\[, options])
 
 #### filename
 Type: `string`
