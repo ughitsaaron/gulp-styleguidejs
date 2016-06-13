@@ -25,17 +25,13 @@ gulp.task('default', function() {
 ```
 
 ## API
-### styleguidejs([filename]\[, options])
-
-#### filename
-Type: `string`
-Default: `index.html`
+### styleguidejs([, options])
 
 #### options
 Type: `object`
 Default: none
 
-gulp-styleguidejs takes all styleguide.js [options](https://github.com/EightMedia/styleguide.js#user-content-customize-look-and-feel)
+gulp-styleguidejs takes all styleguide.js [options](https://github.com/EightMedia/styleguide.js#user-content-customize-look-and-feel). If no options object is provided, gulp-styleguidejs will automatically output to `index.html`. If an options object is given it must contain a value for `outputFile`.
 
 ## Markup
 Styleguide.js uses YAML to markup CSS files and generate styleguides.
