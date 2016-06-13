@@ -8,13 +8,11 @@ var gutil = require('gulp-util'),
 
 /**
  * Exports function
- * @param "String" filename
  * @param {Object} options
  */
 
-module.exports = function(filename, options) {
-  options = options || {};
-  filename = filename || "index.html";
+module.exports = function(options) {
+  var filename = options && options.outputFile || 'index.html';
 
   return through.obj(function(file, enc, cb) {
 
