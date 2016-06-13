@@ -29,6 +29,7 @@
   "dependencies": {
     "gulp": "^3.8.11",
     "gulp-util": "^3.0.4",
+    "lodash": "^4.13.1",
     "styleguidejs": "^0.1.9",
     "through2": "^0.6.5"
   },
